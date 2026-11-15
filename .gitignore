@@ -1,0 +1,14 @@
+# Allowlist: new files must be deliberately reviewed before inclusion.
+*
+!/.gitignore
+!/README.md
+!/portability/
+/portability/*
+!/portability/MacPortBuild.cs
+!/portability/runtime/
+/portability/runtime/*
+!/portability/runtime/MacPortRuntime.cs
+!/scripts/
+/scripts/*
+!/scripts/repair_ngui_shaders.py
+!/scripts/build_macos_unity62.sh
